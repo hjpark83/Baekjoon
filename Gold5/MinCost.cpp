@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1916
+  알고리즘 : 그래프, 다익스트라
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <vector>
 #include <queue>

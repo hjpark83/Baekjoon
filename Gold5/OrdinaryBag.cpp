@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/12865
+  알고리즘 : DP, Knapsack
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

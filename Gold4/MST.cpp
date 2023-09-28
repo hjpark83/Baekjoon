@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1197
+  알고리즘 : 그래프, 최소 스패닝 트리
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

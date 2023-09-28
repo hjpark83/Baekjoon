@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2166
+  알고리즘 : 기하학
+  티어 : Gold5
+*/
+
 #include <iostream>
 using namespace std;
 

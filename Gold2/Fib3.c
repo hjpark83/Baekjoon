@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2749
+  알고리즘 : 수학, 분할정복을 이용한 거듭제곱
+  티어 : Gold2
+*/
+
 #include <stdio.h>
 
 typedef unsigned long long ULLONG;

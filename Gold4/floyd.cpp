@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/11404
+  알고리즘 : 그래프, 플로이드-워셜
+  티어 : Gold4
+*/
+
 #include <iostream>
 #define INF 100000001
 using namespace std;

@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/7561
+  알고리즘 : 수학, 선형대수
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <cmath>
 #include <vector>

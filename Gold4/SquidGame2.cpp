@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/12851
+  알고리즘 : 그래프, BFS 
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <queue>
 using namespace std;

@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/15922
+  알고리즘 : 스위핑
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

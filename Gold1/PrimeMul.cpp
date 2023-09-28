@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2014
+  알고리즘 : 수학, 자료구조, 우선순위 큐, 정수론
+  티어 : Gold1
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

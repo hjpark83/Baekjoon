@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2225
+  알고리즘 : 수학, DP
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

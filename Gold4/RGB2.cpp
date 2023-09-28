@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/17404
+  알고리즘 : DP
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <algorithm>
 

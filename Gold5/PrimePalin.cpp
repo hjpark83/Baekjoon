@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1990
+  알고리즘 : 수학, 정수론, 소수 판정, 에라토스테네스의 체
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <cstring>

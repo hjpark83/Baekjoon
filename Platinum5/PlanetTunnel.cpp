@@ -1,3 +1,9 @@
+/*문제 : https://www.acmicpc.net/problem/2887
+  알고리즘 : 그래프, 최소 스패닝 트리, 정렬
+  티어 : Platinum5
+*/
+
+
 #include <iostream>
 #include <algorithm>
 #include <cmath>

@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1806
+  알고리즘 : 누적 합, 투 포인터
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;

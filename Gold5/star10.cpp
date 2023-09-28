@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2447
+  알고리즘 : 분할 정복, 재귀
+  티어 : Gold5
+*/
+
 #include <iostream>
 using namespace std;
 

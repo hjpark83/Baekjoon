@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1644
+  알고리즘 : 수학, 정수론, 투 포인터, 소수 판정, 에라토스테네스의 체
+  티어 : Gold3
+*/
+
 #include <iostream>
 #include <cmath>
 #include <vector>

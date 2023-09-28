@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/9024
+  알고리즘 : 정렬, 이분탐색, 투 포인터
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

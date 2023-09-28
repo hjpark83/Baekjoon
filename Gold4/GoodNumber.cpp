@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1253
+  알고리즘 : 자료구조, 정렬, 이분탐색, 투 포인터
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

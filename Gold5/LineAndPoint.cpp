@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/11664
+  알고리즘 : 수학, 기하학, 3차원 기하학, 삼분 탐색
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>

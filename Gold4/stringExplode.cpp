@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/9935
+  알고리즘 : 자료구조, 문자열, 스택
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

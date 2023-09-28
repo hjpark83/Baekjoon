@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/5639
+  알고리즘 : 그래프, 트리, 재귀
+  티어 : Gold5
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

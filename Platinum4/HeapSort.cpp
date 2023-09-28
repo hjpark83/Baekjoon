@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2220
+  알고리즘 : 자료구조, 그리디 알고리즘
+  티어 : Platinum 4
+*/
+
 #include <iostream>
 using namespace std;
 

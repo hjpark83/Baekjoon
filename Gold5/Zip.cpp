@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1717
+  알고리즘 : 자료구조, 분리 집합
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/17386
+  알고리즘 : 기하학, 선분 교차 판정
+  티어 : Gold3
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

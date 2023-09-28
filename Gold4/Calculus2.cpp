@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/24726
+  알고리즘 : 수학, 기하학, 미적분학
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;

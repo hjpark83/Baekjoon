@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1300
+  알고리즘 : 이분탐색
+  티어 : Gold1
+*/
+
 #include <iostream>
 #include <algorithm>
 using namespace std;

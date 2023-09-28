@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/17298
+  알고리즘 : 자료구조, 스택
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
