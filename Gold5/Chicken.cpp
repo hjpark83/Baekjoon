@@ -1,3 +1,7 @@
+/*문제 : https://www.acmicpc.net/problem/21278
+  알고리즘 : 그래프, 브루트포스, 최단 경로, 플로이드 와샬
+  티어 : Gold5
+*/
 #include <iostream>
 #include <vector>
 
