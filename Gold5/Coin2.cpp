@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/2294
+  알고리즘 : DP
+  티어 : Gold5
+*/
+
 #include <iostream>
 #include <vector>
 
