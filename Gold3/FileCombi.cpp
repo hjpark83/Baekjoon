@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/11066
+  알고리즘 : DP
+  티어 : Gold3
+*/
+
 #include <iostream>
 #include <algorithm>
 #define MAX 501

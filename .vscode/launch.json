@@ -21,8 +21,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/junip/Desktop/Baekjoon",
-      "program": "c:/Users/junip/Desktop/Baekjoon/build/Debug/outDebug",
+      "cwd": "c:/Users/junip/Desktop/Git/Baekjoon/Gold2",
+      "program": "c:/Users/junip/Desktop/Git/Baekjoon/Gold2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

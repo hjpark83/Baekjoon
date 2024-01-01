@@ -1,3 +1,8 @@
+/*문제 : https://www.acmicpc.net/problem/1922
+  알고리즘 : Minimum Spanning Tree, Kruskal
+  티어 : Gold4
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
