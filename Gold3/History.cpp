@@ -16,7 +16,7 @@ int main(void){
     cin>>N>>K;
     vector<vector<int>> v(N+1,vector<int>(N+1,0));
 
-    for(int i=0;i<K;i++){
+    for(int i=1;i<=K;i++){
         int s,e;
         cin>>s>>e;
         v[s][e]=-1;
@@ -37,11 +37,10 @@ int main(void){
             }
         }
     }
-
     int S;
     cin>>S;
 
-    for(int i=0;i<S;i++){
+    for(int i=1;i<=S;i++){
         int a,b;
         cin>>a>>b;
         cout<<v[a][b]<<"\n";
