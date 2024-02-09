@@ -1,41 +1,37 @@
+/*문제 : https://www.acmicpc.net/problem/11003
+  알고리즘 : Data Structure, priority queue, deque
+  티어 : Platinum5
+*/
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <queue>
 #include <deque>
+#include <algorithm>
 using namespace std;
 
-struct SLW{
-    int pos;
-    int data;
-};
-struct cmp{
-    bool operator()(const SLW& a, const SLW&b){
-        return a.data>b.data;
-    }
-};
+int N, L;
+vector<pair<int,int>> v; // value, index
+deque<pair<int,int>> dq; // value, index
 
 int main(void){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int N,L;
     cin>>N>>L;
-    vector<int> A(N);
-    for(int i=0;i<N;i++){
-        cin>>A[i];
+
+    for(int i=0; i<N; i++){
+        int x;
+        cin>>x;
+        v.push_back(make_pair(x,i));
     }
 
-    priority_queue<SLW,vector<SLW>,cmp> pq;
-    for(int i=0;i<N;i++){
-        pq.push({A[i],i});
-        int pos=pq.top().pos;
-        while(pos<i-L+1){
-            pq.pop();
-            pos=pq.top().pos;
-        }
-        cout<<pq.top().data<<" ";
+    for(int i=0; i<N; i++){
+        while(!dq.empty() && dq.front().second<=i-L)
+            dq.pop_front();
+        while(!dq.empty() && dq.back().first>v[i].first)
+            dq.pop_back();
+        dq.push_back(v[i]);
+        cout<<dq.front().first<<" ";
     }
-    return 0;
 }
