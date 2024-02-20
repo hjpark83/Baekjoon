@@ -9,20 +9,24 @@
 #include <algorithm>
 #define MAX 1001
 using namespace std;
+typedef long long ll;
 typedef pair<int,int> pii;
 
-int N, result = 0;
-int parent[MAX];
+int N;
+ll result = 0;
+int parent[MAX]={0,};
 vector<vector<int>> Map;
 vector<pair<int,pii>> Edge;
 
 void Input(){
     cin>>N;
-    Map.resize(N+1, vector<int>(N+1));
+    Map.resize(N+1, vector<int>(N+1,0));
     for(int i=1; i<=N; i++){
         for(int j=1; j<=N; j++){
             cin>>Map[i][j];
-            Edge.push_back({Map[i][j], {i,j}});
+            if (i < j){
+                Edge.push_back({Map[i][j], {i, j}});
+            }
         }
     }
 }
@@ -37,7 +41,13 @@ void Union(int x, int y){
     x = Find(x);
     y = Find(y);
 
-    parent[y] = x;
+    if(x==y)
+        return;
+    
+    if(x>y)
+        parent[x] = y;
+    else
+        parent[y] = x;
 }
 
 bool SameParent(int x, int y){
@@ -55,11 +65,11 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
     Input();
-    sort(Edge.begin(), Edge.end());
 
-    for(int i=1; i<=N; i++){
+    for(int i=0; i<=N; i++){
         parent[i] = i;
     }
+    sort(Edge.begin(), Edge.end());
 
     for(int i=0; i<Edge.size(); i++){
         if(!SameParent(Edge[i].second.first, Edge[i].second.second)){
