@@ -54,24 +54,6 @@
   "C_Cpp_Runner.useUndefinedSanitizer": false,
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
-  "files.associations": {
-    "iostream": "cpp",
-    "array": "cpp",
-    "string_view": "cpp",
-    "initializer_list": "cpp",
-    "ostream": "cpp",
-    "cmath": "c",
-    "algorithm": "c",
-    "stdio.h": "c",
-    "functional": "c",
-    "new": "cpp",
-    "deque": "cpp",
-    "forward_list": "cpp",
-    "list": "cpp",
-    "vector": "cpp",
-    "span": "cpp"
-  },
-  "java.debug.settings.onBuildFailureProceed": true,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
