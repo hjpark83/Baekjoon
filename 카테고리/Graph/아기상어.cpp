@@ -23,9 +23,7 @@ int main() {
 
     int pos_x, pos_y;
     vector<vector<int>> map(N, vector<int>(N, 0));
-    vector<vector<int>> dist(N, vector<int>(N, -1));
-    queue<pii> Q;
-
+    
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             cin >> map[i][j];
@@ -35,11 +33,14 @@ int main() {
             }
         }
     }
-
+    
     int shark_size = 2, count = 0, time = 0;
     map[pos_x][pos_y] = 0;
     
     while (true) {
+        vector<vector<int>> dist(N, vector<int>(N, -1));
+        queue<pii> Q;
+
         Q.push({pos_x, pos_y});
         dist[pos_x][pos_y] = 0;
 
